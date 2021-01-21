@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Component_Root>
+   <ClsId><![CDATA[{6E05AC2C-BCAE-4E55-9FCC-FDEC4269084B}]]></ClsId>
+   <Guid><![CDATA[{19DA06AC-B806-4D8E-BD7B-C87DE551AEA4}]]></Guid>
+   <Name><![CDATA[GUITest1]]></Name>
+   <Description><![CDATA[my test description]]></Description>
+   <Author><![CDATA[berkovir]]></Author>
+   <DocumentType><![CDATA[Test]]></DocumentType>
+   <CreationDateTime><![CDATA[131350074092310674]]></CreationDateTime>
+   <ModificationDateTime><![CDATA[131357676517357247]]></ModificationDateTime>
+   <DocumentVersion major="2" minor="0"/>
+<IsReusable><![CDATA[0]]></IsReusable>
+   <Iteratable><![CDATA[0]]></Iteratable>
+   <CheckRelativePaths><![CDATA[1]]></CheckRelativePaths>
+   <ToolName><![CDATA[Unified Functional Testing]]></ToolName>
+   <ToolVersion><![CDATA[12.54]]></ToolVersion>
+   <CreatedByToolName><![CDATA[Unified Functional Testing]]></CreatedByToolName>
+   <CreatedByToolVersion><![CDATA[12.54]]></CreatedByToolVersion>
+   <SyncPoints/>
+   <FuncLibs/>
+   <RecoveryScenarios/>
+   <DataTable ORDER_ID="0"/>
+   <SubComponents>
+      <Component>Action0</Component>
+      <Component>Action1</Component>
+      <Dependency Kind="16" Logical="Action0" ORDER_ID="0" Scope="0" Type="1">Action0\Resource.mtr</Dependency>
+      <Dependency Kind="16" Logical="Action1" ORDER_ID="0" Scope="0" Type="1">Action1\Resource.mtr</Dependency>
+      <Dependency Kind="32" Logical="" ORDER_ID="0" Scope="0" Type="2">default.cfg</Dependency>
+      <Dependency Kind="32" Logical="" ORDER_ID="0" Scope="0" Type="2">GUITest1.usr</Dependency>
+      <Dependency Kind="4" Logical="" ORDER_ID="0" Scope="0" Type="2">Default.xls</Dependency>
+      <Dependency Kind="16" Logical="" ORDER_ID="0" Scope="0" Type="2">Test.tsp</Dependency>
+      <Dependency Kind="4" Logical="" ORDER_ID="0" Scope="0" Type="2">Parameters.mtr</Dependency>
+      <Dependency Kind="32" Logical="" ORDER_ID="0" Scope="0" Type="2">default.cfg</Dependency>
+      <Dependency Kind="32" Logical="" ORDER_ID="0" Scope="0" Type="2">Test1.usr</Dependency>
+   </SubComponents>
+   <Component_Gen_Prop/>
+</Component_Root>
